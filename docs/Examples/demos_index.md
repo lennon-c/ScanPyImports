@@ -1,18 +1,17 @@
 <div class="grid cards" markdown>
+
 -  Data
-    -  [Data](/Examples/Data)
+    -  [Data](https://lennon-c.github.io/ScanPyImports/Examples/Data/)
             Getting the DataFrame of your imported modules.
 
 - Vizualization
-    - [Visualizing Imported Modules](/Examples/PlotsImports)
-    - [Visualizing Any Data](/Examples/Plots)
+    - [Visualizing Imported Modules](https://lennon-c.github.io/ScanPyImports/Examples/PlotsImports/)
+    - [Visualizing Any Data](https://lennon-c.github.io/ScanPyImports/Examples/Plots/)
 
 - Viz. Customization
-    - [Basics](/Examples/CustomBasic)
-    - [Masks for Spiral plots](/Examples/Masks)
-    - [More Complex Visualizations](/Examples/Example)  
+    - [Basics](https://lennon-c.github.io/ScanPyImports/Examples/CustomBasic)
+    - [Masks for Spiral plots](https://lennon-c.github.io/ScanPyImports/Examples/Masks)
+    - [More Complex Visualizations](https://lennon-c.github.io/ScanPyImports/Examples/Example)  
 
  </div>
- 
-
  
