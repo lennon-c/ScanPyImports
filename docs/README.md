@@ -1,14 +1,13 @@
----
-title: ScanPyImports
----
 <!-- hide title -->
+
 <style>
   .md-typeset h1,
   .md-content__button {
     display: none;
   }
 </style>
-Fixing links
+
+Fixing links, hide title frnt matter 
 
 **ScanPyImports** scans directories for import statements in Python scripts and Jupyter notebooks, providing tools to summarize and visualize the import statements across your projects.
 

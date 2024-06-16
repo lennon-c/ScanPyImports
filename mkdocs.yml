@@ -51,7 +51,7 @@ plugins:
             docstring_section_style: list # table # spacy 
 
 nav:
-  - README.md
+  - ScanPyImports: README.md
   - Demos:
     - Demos, Tutorials: Examples/demos_index.md
     - Examples/Data.ipynb
