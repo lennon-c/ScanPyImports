@@ -1,5 +1,4 @@
 <!-- hide title -->
-
 <style>
   .md-typeset h1,
   .md-content__button {
@@ -12,9 +11,9 @@ Fixing links, hide title frnt matter
 **ScanPyImports** scans directories for import statements in Python scripts and Jupyter notebooks, providing tools to summarize and visualize the import statements across your projects.
 
 
-![](img\cloud_plot.svg){: style="height:15em;width:15em"}
-![](img\spiral_plot.svg){: style="height:15em;width:15em"}
-
+<img width="400px" src="https://github.com/lennon-c/ScanPyImports/raw/main/docs/img/spiral_plot.svg" alt="image_name png" />
+<img width="400px" src="https://github.com/lennon-c/ScanPyImports/raw/main/docs/img/cloud_plot.svg" alt="image_name png" />
+ 
 # Features
 - **Directory Scanning**:
     - Recursively scans directories to locate all Python files (`.py`) and Jupyter notebooks (`.ipynb`), collecting import statements from the code.
