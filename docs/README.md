@@ -1,18 +1,10 @@
-<!-- hide title -->
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
-
 Fixing links, hide title frnt matter 
 
 **ScanPyImports** scans directories for import statements in Python scripts and Jupyter notebooks, providing tools to summarize and visualize the import statements across your projects.
 
-
-<img width="300px" src="https://github.com/lennon-c/ScanPyImports/raw/main/docs/img/spiral_plot.svg" alt="image_name png" />
-<img width="300px" src="https://github.com/lennon-c/ScanPyImports/raw/main/docs/img/cloud_plot.svg" alt="image_name png" />
+Cloud plot            |  Spiral plot
+:-------------------------:|:-------------------------:
+<img width="300px" src="https://github.com/lennon-c/ScanPyImports/raw/main/docs/img/cloud_plot.svg" alt="image_name png" />|    <img width="300px" src="https://github.com/lennon-c/ScanPyImports/raw/main/docs/img/spiral_plot.svg" alt="image_name png" />
  
 # Features
 - **Directory Scanning**:
