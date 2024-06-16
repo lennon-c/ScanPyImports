@@ -1,0 +1,99 @@
+site_name: ScanPyImports
+repo_url: https://github.com/lennon-c/ScanPyImports
+site_description: ScanPyImports scans directories for import statements in Python scripts and Jupyter notebooks, providing tools to summarize and visualize the import statements across your projects.
+
+theme:
+  name: "material"
+  palette:
+    primary: red
+  # logo: assets/logo.png
+  logo: assets/spiral.svg
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.footer
+    # - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lennon-c
+
+plugins:
+  - mkdocs-jupyter:
+      ignore_h1_titles: true
+      include: ["*.ipynb"]
+  - autorefs
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          import:
+            - http://pandas.pydata.org/pandas-docs/stable/objects.inv
+            - https://matplotlib.org/stable/objects.inv
+            - https://docs.python.org/3/objects.inv
+          options:
+            show_root_heading: true
+            inherited_members: true 
+            members_order: source 
+            show_if_no_docstring: true
+            # show_category_heading: true
+            show_symbol_type_heading: true
+            merge_init_into_class: true
+            docstring_options:
+              ignore_init_summary: true
+            show_symbol_type_toc: true
+            docstring_section_style: list # table # spacy 
+
+nav:
+  - README.md
+  # - installation.md
+  - Demos:
+    - Demos, Tutorials: Examples/demos_index.md
+    - Examples/Data.ipynb
+    - Visualizing Imported Modules: Examples/PlotsImports.ipynb
+    - Visualizing Any Data: Examples/Plots.ipynb
+    - Customization:
+      - Basics: Examples/CustomBasic.ipynb
+      - Masks for Spiral plots: Examples/Masks.ipynb
+      - More Complex Visualizations: Examples/Example.ipynb
+  - Api:
+    - ScanPyImports: Api/ScanPyImports.md
+    - Api/scan.md
+    - Api/analyzer.md
+    - Api/plotter.md
+
+not_in_nav: |
+  create_df.md 
+  installation.md
+watch:  
+  - ScanPyImports
+
+extra_css: # some changes for mkdocstrings 
+  - css/mkdocstrings.css
+#   - css/jupyter.css
+#   - css/material.css
+#   - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+      baselevel: 2
+  - pymdownx.snippets:
+      base_path: !relative  # Relative to the current Markdown file
+  - pymdownx.superfences
+  - pymdownx.details # allows for ???-
+  - pymdownx.highlight # does not make much difference
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true

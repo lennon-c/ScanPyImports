@@ -1,0 +1,11 @@
+/* More space at the bottom of the page. */
+.md-main__inner {
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset h1 {
+  color: var(--md-default-fg-color--light);
+  font-size: 2em;
+  line-height: 1.3;
+  margin: 0 0 0em;
+}

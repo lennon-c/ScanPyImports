@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+matplotlib =  "*"
+numpy = "*"
+wordcloud = "*"
+pillow = "*"
+nbformat = "*"
+jupyter = "*"
+jupyterlab = "*"
+ipykernel = "*"
+mkdocs = "*"
+mkdocstrings = {extras = ["python"], version = "*"}
+mkdocs-material = "*"
+markdown-exec = {extras = ["ansi"], version = "*"}
+mkdocs-jupyter = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10.10"

@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.vscode/
+
+Pipfile.lock
+
+/tests/
+/site/
+
+
+# temporary folders
+/output/
+/utils/
+/Z_temp/
