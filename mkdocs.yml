@@ -52,7 +52,6 @@ plugins:
 
 nav:
   - README.md
-  # - installation.md
   - Demos:
     - Demos, Tutorials: Examples/demos_index.md
     - Examples/Data.ipynb
