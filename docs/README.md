@@ -25,8 +25,13 @@ ScanPyImports requires the following packages:
 - pillow  
 - nbformat 
 
-## Clone or download the code into your computer.
+## Clone or download ScanPyImports.
+You can either:
 
+- download the source code [here](https://github.com/lennon-c/ScanPyImports/archive/refs/heads/main.zip).  
+
+- or clone the repo:
+`git clone https://github.com/lennon-c/ScanPyImports.git`
  
 
 # Demos, Tutorials
@@ -42,7 +47,7 @@ ScanPyImports requires the following packages:
 
 - Viz. Customization
     - [Basics](https://lennon-c.github.io/ScanPyImports/Examples/CustomBasic)
-    - [Masks for Spiral plots](https://lennon-c.github.io/ScanPyImports/Examples/Masks)
+    - [Masks for Cloud plots](https://lennon-c.github.io/ScanPyImports/Examples/Masks)
     - [More Complex Visualizations](https://lennon-c.github.io/ScanPyImports/Examples/Example)  
 
  </div>
