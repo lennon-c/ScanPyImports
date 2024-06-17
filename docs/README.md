@@ -25,7 +25,7 @@ ScanPyImports requires the following packages:
 - pillow  
 - nbformat 
 
-## Clone or download ScanPyImports.
+## Clone or download ScanPyImports
 You can either:
 
 - download the source code [here](https://github.com/lennon-c/ScanPyImports/archive/refs/heads/main.zip).  
