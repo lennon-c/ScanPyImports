@@ -216,7 +216,7 @@ class Spiral:
 
 
         Notes:
-            The `ax` parameter must be an instance of [**PolarAxes**][matplotlib.projections.polar.PolarAxes].
+            The `ax` parameter, if passed, must be an instance of [**PolarAxes**][matplotlib.projections.polar.PolarAxes].
 
             When creating `ax`, you should pass `polar` as the projection argument. Here are two ways to achieve this:
 
@@ -477,6 +477,23 @@ class DataPlotter(DataAnalyzer):
                 Other possible values: 'N', 'S', 'SE', 'NW', and 'SW'.
             label_padding: Padding for the labels.
             **kwargs: Additional keyword arguments for the bar plot (see: [Axes.bar][matplotlib.axes.Axes.bar])
+
+        Notes:
+            The `ax` parameter, if passed, must be an instance of [**PolarAxes**][matplotlib.projections.polar.PolarAxes].
+
+            When creating `ax`, you should pass `polar` as the projection argument. Here are two ways to achieve this:
+
+            ```python
+            from matplotlib import pyplot as plt
+
+            # One way:
+            fig = plt.figure()
+            ax = fig.add_subplot(projection='polar')
+
+            # Another way:
+            fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+            ```
+
 
         Returns:
             The figure, axes, bars, and texts of the plot.
