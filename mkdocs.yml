@@ -59,7 +59,7 @@ nav:
     - Visualizing Any Data: Examples/Plots.ipynb
     - Customization:
       - Basics: Examples/CustomBasic.ipynb
-      - Masks for Spiral plots: Examples/Masks.ipynb
+      - Masks for Cloud plots: Examples/Masks.ipynb
       - More Complex Visualizations: Examples/Example.ipynb
   - API:
     - ScanPyImports: Api/ScanPyImports.md

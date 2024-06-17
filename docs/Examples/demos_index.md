@@ -10,7 +10,7 @@
 
 - Viz. Customization
     - [Basics](https://lennon-c.github.io/ScanPyImports/Examples/CustomBasic)
-    - [Masks for Spiral plots](https://lennon-c.github.io/ScanPyImports/Examples/Masks)
+    - [Masks for Cloud plots](https://lennon-c.github.io/ScanPyImports/Examples/Masks)
     - [More Complex Visualizations](https://lennon-c.github.io/ScanPyImports/Examples/Example)  
 
  </div>
