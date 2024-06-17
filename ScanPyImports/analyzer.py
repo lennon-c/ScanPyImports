@@ -121,6 +121,10 @@ class DataAnalyzer(Data):
         Args:
             path: Path to the directory.
             to_exclude: List of packages' names to exclude from the analysis.
+
+        methods: 
+            get_frequencies: Return frequency of imported modules.
+
         """        
         super().__init__(path)
         self._clean_df = None

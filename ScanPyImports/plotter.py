@@ -412,6 +412,7 @@ class DataPlotter(DataAnalyzer):
     """DataPlotter extends DataAnalyzer to provide methods for visualizing data on imported modules.
 
     Methods:
+        get_frequencies: Return frequency of imported modules.
         cloud_frequencies: Generate a word cloud plot of data frequencies.
         spiral_frequencies: Generate a spiral bar plot based on data frequencies.
     """
