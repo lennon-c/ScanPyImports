@@ -70,14 +70,16 @@
            
   }
   
-  div.doc-method {
-           background: var(--doc-symbol-method-fg-color);
-           border-radius: 0.5rem;
-           .doc-contents{
-                   background-color: var(--doc-symbol-method-bg-color);
-                   margin-bottom: 1em ;
-           }
+div.doc-class{
+  .doc-function{
+          background: var(--doc-symbol-method-fg-color);
+          border-radius: 0.5rem;
+          .doc-contents{
+                  background-color: var(--doc-symbol-method-bg-color);
+                  margin-bottom: 1em ;
+          }
   }
+}
   
   div.doc-attribute {
            background: var(--doc-symbol-attribute-fg-color);
