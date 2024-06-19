@@ -1,0 +1,58 @@
+:root {
+--jp-code-font-size: 0.1em;
+}
+
+
+div.jp-RenderedHTMLCommon {
+  h2,h3,h4,h5{
+    font-weight:800;
+    padding-left: 0.5em;
+    line-height: 1;
+    margin: .6em 0 .6em;
+    text-transform: none !important;
+    }
+    h5{
+      font-style: italic;
+    }
+
+  p {    
+      border-radius: 0.5em;
+      padding-left: 1.25em;
+      padding-right: 0.5em;
+    }
+  }
+  
+div.jp-RenderedMarkdown{
+  color: var(--md-default-fg-color--light);
+  background-color: hsl(180, 100%, 92%);
+  border-radius: 0.5em;
+  font-size: .95em;
+
+}
+  
+div.highlight-ipynb.hl-python pre {
+    background-color: var(--md-code-bg-color);
+    line-height: 1.5;
+    font-size: .25em;
+ }
+ 
+
+  div.jp-OutputArea.jp-Cell-outputArea pre {
+    color: var(--md-default-fg-color--light);
+    padding: 1em;
+    /* background-color: var(--md-code-bg-color); */
+    /* font-size:0.5em; */
+    font-size: .65em;
+    word-break: keep-all;
+
+  }
+
+
+div.jp-RenderedImage.jp-OutputArea-output{
+    img{
+      margin: auto;
+      display: block;
+  }
+}
+ 
+
