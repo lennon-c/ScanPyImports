@@ -87,7 +87,7 @@ class PlotSettings:
         """Name of the font."""
         self.fontfamily: str = None
         """Font family."""
-        self.figsize: tuple[float,float] = None
+        self.figsize: tuple[float,float] = (4.8,4.8)
         """Figure size."""
 
         # Only bar format
@@ -314,7 +314,7 @@ class Spiral:
             texts.append(text)
         return texts
     
-    def get_ax(self, ax: Optional[PolarAxes]) -> Tuple[Figure, PolarAxes]:
+    def get_ax(self, ax: Optional[PolarAxes] = None) -> Tuple[Figure, PolarAxes]:
         """
         Helper function to get or create a Matplotlib Figure and Axes.
 
@@ -325,7 +325,7 @@ class Spiral:
             A tuple containing the Figure and Axes of the plot. If an Axes object is passed, the Axes and its figure will be returned. Otherwise, a new figure and Axes will be created.
         """
         if ax is None:
-            fig = plt.figure(self.settings.figsize)
+            fig = plt.figure(figsize=self.settings.figsize)
             ax = fig.add_subplot(projection='polar')
         else:
             fig = ax.get_figure()
@@ -391,7 +391,7 @@ class Cloud:
 
         return fig, ax, wc, im
     
-    def get_ax(self, ax: Optional[Axes]) -> Tuple[Figure, Axes]:
+    def get_ax(self, ax: Optional[Axes] = None) -> Tuple[Figure, Axes]:
         """
         Helper function to get or create a Matplotlib Figure and Axes object.
 
@@ -402,7 +402,7 @@ class Cloud:
             A tuple containing the figure and axes. If an Axes object is passed, the Axes and its figure will be returned. Otherwise, a new figure and Axes will be created.
         """
         if ax is None:
-            fig = plt.figure(self.settings.figsize)
+            fig = plt.figure(figsize=self.settings.figsize)
             ax = fig.add_subplot()
         else:
             fig = ax.get_figure()
